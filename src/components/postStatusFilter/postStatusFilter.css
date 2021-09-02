@@ -1,0 +1,15 @@
+.btn-group {
+  display: flex;
+}
+
+.btn-group button {
+  margin-left: 10px;
+}
+
+.btn-group button:first-child {
+  margin-left: 0;
+}
+
+.btn.active {
+  background-color: #01b7d1;
+}
